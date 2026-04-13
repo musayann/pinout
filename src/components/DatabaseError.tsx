@@ -32,7 +32,7 @@ export default function DatabaseError() {
                 The Type J Database Error
               </h2>
               <p className="mt-2 text-text-secondary">
-                Why some sources incorrectly list Rwanda as using Swiss plugs
+                Why some sources incorrectly list Rwanda as using the Swiss Type J plug
               </p>
             </div>
           </div>
