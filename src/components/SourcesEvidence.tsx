@@ -1,5 +1,21 @@
 const sources = [
   {
+    name: "DEAS 495-2:2024 — Specification for switched and unswitched socket outlets",
+    org: "East African Community / Rwanda Standards Board (RSB)",
+    url: "https://www.rsb.gov.rw/fileadmin/user_upload/DEAS_495-2_2024.pdf",
+    lists: "G (EAS 495)",
+    note: "The full text of the Draft East African Standard for 13 A shuttered socket-outlets. Specifies requirements for household, commercial, and light industrial use at up to 250 V / 50 Hz, using plugs per EAS 495-1. Part of the four-part EAS 495 series based on BS 1363, which defines the Type G plug system.",
+    accessed: "April 2026",
+  },
+  {
+    name: "Public Review Notice #41",
+    org: "Rwanda Standards Board (RSB)",
+    url: "https://www.rsb.gov.rw/updates/news-detail/public-review-notice-41",
+    lists: "G (EAS 495)",
+    note: "Official RSB notice listing DEAS 495-1 through 495-4 (2024 revision) for public review — the East African Standard for 13 A fused plugs, socket-outlets, adaptors, and connection units. EAS 495 is based on BS 1363, which defines the Type G plug system.",
+    accessed: "April 2026",
+  },
+  {
     name: "IEC World Plugs",
     org: "International Electrotechnical Commission",
     url: "https://www.iec.ch/world-plugs",
