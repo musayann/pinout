@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Source_Serif_4, Outfit } from "next/font/google";
+import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import "./globals.css";
 
 const sourceSerif = Source_Serif_4({
@@ -15,6 +16,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   description:
     "Complete guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
@@ -28,12 +30,17 @@ export const metadata: Metadata = {
     "Rwanda voltage",
     "Rwanda electricity",
   ],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Electrical Plugs & Sockets in Rwanda",
     description:
       "Rwanda uses plug types C, E, and G at 230V/50Hz. The definitive reference for travellers and electricians.",
     type: "website",
     locale: "en_GB",
+    url: SITE_URL,
+    siteName: SITE_NAME,
   },
   twitter: {
     card: "summary_large_image",
@@ -95,12 +102,23 @@ const articleSchema = {
   headline: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   description:
     "Complete reference for electrical plug and socket types used in Rwanda, including the Type J database error correction.",
+  url: SITE_URL,
   datePublished: "2026-04-13",
   dateModified: "2026-04-13",
   author: {
     "@type": "Organization",
-    name: "Rwanda Plugs",
+    name: SITE_NAME,
+    url: SITE_URL,
   },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  url: SITE_URL,
+  description:
+    "Complete reference for electrical plug and socket types used in Rwanda. Covers Types C, E, and G at 230V/50Hz, including the Type J database error correction.",
 };
 
 export default function RootLayout({
@@ -121,6 +139,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
