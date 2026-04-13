@@ -47,11 +47,21 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: SITE_URL,
     siteName: SITE_NAME,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G at 230V 50Hz",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Electrical Plugs & Sockets in Rwanda",
     description: "Rwanda uses plug types C, E, and G at 230V/50Hz.",
+    images: ["/og-image.png"],
   },
   other: {
     "geo.region": "RW",
