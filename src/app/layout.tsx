@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Electrical Plugs & Sockets in Rwanda",
+    title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
     description:
-      "Rwanda uses plug types C, E, and G at 230V/50Hz. The definitive reference for travellers and electricians.",
+      "Rwanda uses plug types C, E, and G at 230V/50Hz. Everything you need to know about power adapters, sockets, and voltage in Rwanda.",
     type: "website",
     locale: "en_GB",
     url: SITE_URL,
@@ -59,8 +59,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Electrical Plugs & Sockets in Rwanda",
-    description: "Rwanda uses plug types C, E, and G at 230V/50Hz.",
+    title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
+    description:
+      "Rwanda uses plug types C, E, and G at 230V/50Hz. Everything you need to know about power adapters, sockets, and voltage in Rwanda.",
     images: ["/og-image.png"],
   },
   other: {
