@@ -1,6 +1,6 @@
 const sources = [
   {
-    name: "DEAS 495-2:2024 — Specification for switched and unswitched socket outlets",
+    name: "DEAS 495-2 — Specification for switched and unswitched socket outlets",
     org: "East African Community / Rwanda Standards Board (RSB)",
     url: "https://www.rsb.gov.rw/fileadmin/user_upload/DEAS_495-2_2024.pdf",
     lists: "G (EAS 495)",
