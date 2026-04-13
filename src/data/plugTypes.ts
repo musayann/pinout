@@ -29,7 +29,7 @@ export const plugTypes: PlugType[] = [
     grounded: true,
     ratedCurrent: "16 A",
     description:
-      "The Type E system features a grounding pin that protrudes from the socket face, connecting with a hole in the plug. This is the historical standard grounded socket type in Rwanda, a legacy of Belgian colonial electrical infrastructure. While being phased out in favour of Type G, Type E remains the most widespread grounded socket in older buildings across the country.",
+      "The Type E system features a grounding pin that protrudes from the socket face, connecting with a hole in the plug. No longer the official standard since Rwanda adopted Type G as part of the East African Community, Type E remains the most widespread grounded socket in older buildings across the country, a legacy of Belgian colonial electrical infrastructure.",
     compatibility: "Accepts Type C and Type E plugs",
     whereFound:
       "Standard in older Rwandan buildings, especially residential and commercial construction built under Belgian and French electrical influence. Still the most commonly encountered grounded socket type across the country.",
