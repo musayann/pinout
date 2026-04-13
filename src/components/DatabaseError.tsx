@@ -93,8 +93,10 @@ export default function DatabaseError() {
                 </p>
                 <p>
                   The error has since been corrected in authoritative sources.
-                  Rwanda&rsquo;s official plug types are{" "}
-                  <strong className="text-text-primary">C, E, and G</strong>.
+                  Rwanda&rsquo;s official standard is Type G, with legacy
+                  types{" "}
+                  <strong className="text-text-primary">C and E</strong> still
+                  widely used.
                 </p>
               </div>
 

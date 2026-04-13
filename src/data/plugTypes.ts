@@ -17,10 +17,10 @@ export const plugTypes: PlugType[] = [
     grounded: false,
     ratedCurrent: "2.5 A",
     description:
-      "The Europlug is listed for Rwanda because it is physically compatible with Type E sockets, and there are no dedicated Type C-only sockets installed in Rwanda. However, the Type C plug is widely used in practice: its compact, ungrounded two-pin design is the standard for low-power devices like phone chargers, laptops, and small appliances, and it fits directly into the Type E sockets found across the country.",
+      "The Europlug is listed for Rwanda because it is physically compatible with Type E sockets, and dedicated Type C-only sockets are very rare in Rwanda. However, the Type C plug is widely used in practice: its compact, ungrounded two-pin design is the standard for low-power devices like phone chargers, laptops, and small appliances, and it fits directly into the Type E sockets found across the country.",
     compatibility: "Fits into Type E (and Type F) sockets",
     whereFound:
-      "No dedicated Type C sockets exist in Rwanda. Type C plugs are used everywhere via compatibility with Type E sockets, making them the most common plug type encountered in daily life.",
+      "Dedicated Type C sockets are very rare in Rwanda. Type C plugs are used everywhere via compatibility with Type E sockets, making them the most common plug type encountered in daily life.",
   },
   {
     type: "E",
@@ -32,7 +32,7 @@ export const plugTypes: PlugType[] = [
       "The Type E system features a grounding pin that protrudes from the socket face, connecting with a hole in the plug. No longer the official standard since Rwanda adopted Type G as part of the East African Community, Type E remains the most widespread grounded socket in older buildings across the country, a legacy of Belgian colonial electrical infrastructure.",
     compatibility: "Accepts Type C and Type E plugs",
     whereFound:
-      "Standard in older Rwandan buildings, especially residential and commercial construction built under Belgian and French electrical influence. Still the most commonly encountered grounded socket type across the country.",
+      "Common in older Rwandan buildings, especially residential and commercial construction built under Belgian and French electrical influence. Still widely encountered, especially outside new construction in urban centres.",
   },
   {
     type: "G",
@@ -41,7 +41,7 @@ export const plugTypes: PlugType[] = [
     grounded: true,
     ratedCurrent: "13 A (fused)",
     description:
-      "The British plug features three rectangular pins and a built-in fuse, a safety feature unique to this design. Each plug contains a replaceable fuse that protects the individual appliance circuit. Type G was adopted as the official East African Community (EAC) standard in the early 2010s, with enforcement initially focused on commercial buildings. Rwanda now requires it in all new electrical installations to harmonise with Kenya, Tanzania, and Uganda.",
+      "The British plug features three rectangular pins and a built-in fuse, a safety feature unique to this design. Each plug contains a replaceable fuse that protects the individual appliance circuit. Rwanda adopted Type G as its official standard in the early 2010s as part of East African Community (EAC) harmonisation, with enforcement initially focused on commercial buildings. It is now required in all new electrical installations, in line with Kenya, Tanzania, and Uganda.",
     compatibility: "Only fits Type G sockets",
     whereFound:
       "The official standard since the early 2010s, initially enforced for commercial buildings. Found in commercial properties, international hotels, government facilities, and increasingly in newer residential construction. Growing in prevalence across Kigali and other urban centres as Rwanda's electrical infrastructure modernises.",

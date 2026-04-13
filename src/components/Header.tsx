@@ -35,8 +35,8 @@ export default function Header() {
           style={{ animationDelay: "0.6s" }}
         >
           Rwanda&rsquo;s electrical system uses the same 230&nbsp;V / 50&nbsp;Hz standard found
-          across most of Africa and Europe. French Type&nbsp;E was historically
-          the standard, but Rwanda has now adopted British Type&nbsp;G as the
+          across most of Africa and Europe. French Type&nbsp;E was the former standard, originally from Belgian
+          colonial infrastructure, but Rwanda has now adopted British Type&nbsp;G as the
           official East African Community plug, required in all new
           construction.
         </p>

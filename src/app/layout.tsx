@@ -79,7 +79,7 @@ const faqSchema = {
       name: "What plug types are used in Rwanda?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Rwanda uses plug types C, E, and G. Type C (Europlug) is listed due to its compatibility with Type E sockets, and there are no dedicated Type C sockets. Type E (French) is the historical standard from Belgian colonial infrastructure. Type G (British) is the official East African Community standard, required in all new construction.",
+        text: "Rwanda uses plug types C, E, and G. Type C (Europlug) is listed due to its compatibility with Type E sockets, and dedicated Type C sockets are very rare. Type E (French) was the former standard, originally from Belgian colonial infrastructure and used for decades after independence. Type G (British) is Rwanda's official standard, adopted as part of East African Community harmonisation, and required in all new construction.",
       },
     },
     {
@@ -103,7 +103,15 @@ const faqSchema = {
       name: "Do I need a travel adapter for Rwanda?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "European two-pin (Type C) plugs work directly in most Rwandan sockets. French (Type E) plugs work in Type E sockets found in older buildings. Travellers from the UK, US, Australia, and other regions will need an adapter. A universal travel adapter is recommended for the best coverage.",
+        text: "European two-pin (Type C) plugs work directly in Type E sockets, which are common in older buildings. US, Australian, and other non-European travellers will need an adapter. A universal travel adapter is recommended for the best coverage.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "I'm from the UK — do I need an adapter for Rwanda?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Type G (British) is Rwanda's official standard, so many newer buildings, hotels, and commercial properties will have Type G sockets. However, older buildings may only have Type E (French) sockets, which are not compatible with Type G plugs. It's always a good idea to carry an adapter just in case your accommodation doesn't have Type G sockets.",
       },
     },
     {
@@ -111,7 +119,7 @@ const faqSchema = {
       name: "What is the East African Community (EAC) plug standard?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The EAC has adopted Type G (British BS 1363) as its official plug standard. Rwanda, along with Kenya, Tanzania, and Uganda, now requires Type G sockets in all new electrical installations.",
+        text: "Rwanda has adopted Type G (British BS 1363) as its official plug standard, as part of East African Community harmonisation. Along with Kenya, Tanzania, and Uganda, Rwanda now requires Type G sockets in all new electrical installations.",
       },
     },
   ],
@@ -143,17 +151,17 @@ const howToSchema = {
     {
       "@type": "HowToStep",
       name: "Check your plug type",
-      text: "Identify your device's plug type. European two-pin (Type C) plugs work directly in most Rwandan sockets without an adapter.",
+      text: "Identify your device's plug type. European two-pin (Type C) plugs work directly in Type E sockets found in older buildings, without an adapter.",
     },
     {
       "@type": "HowToStep",
       name: "Check the building age",
-      text: "Older Rwandan buildings use Type E (French) sockets. Newer buildings and hotels use Type G (British) sockets, the official EAC standard.",
+      text: "Older Rwandan buildings use Type E (French) sockets. Newer buildings and hotels use Type G (British) sockets, Rwanda's official standard adopted as part of EAC harmonisation.",
     },
     {
       "@type": "HowToStep",
       name: "Get the right adapter",
-      text: "Travellers from the UK, US, Australia, and other non-European countries need an adapter. A universal travel adapter is recommended for the best coverage across both older (Type E) and newer (Type G) buildings.",
+      text: "US, Australian, and other non-European travellers will need an adapter. UK travellers may find Type G sockets in newer buildings, but should carry an adapter for older buildings with Type E sockets. A universal travel adapter is recommended for the best coverage.",
     },
     {
       "@type": "HowToStep",

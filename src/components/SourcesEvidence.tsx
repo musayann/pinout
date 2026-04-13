@@ -36,7 +36,7 @@ const sources = [
     org: "Wikipedia",
     url: "https://en.wikipedia.org/wiki/Energy_in_Rwanda",
     lists: "C, E, G",
-    note: "Confirms the historical use of C and E from Belgian colonial influence, and that Type G (BS 1363) has been adopted as the official EAC standard for new installations.",
+    note: "Confirms the historical use of C and E from Belgian colonial influence, and that Rwanda adopted Type G (BS 1363) as its official standard for new installations as part of EAC harmonisation.",
     accessed: "April 2026",
   },
   {
@@ -44,7 +44,7 @@ const sources = [
     org: "Wikivoyage",
     url: "https://en.wikivoyage.org/wiki/Rwanda",
     lists: "C, E, G",
-    note: 'States that "Type C or E plug will work in most places" and that Type G is the official East African Community standard found in modern construction.',
+    note: 'States that "Type C or E plug will work in most places" and that Type G is Rwanda\'s official standard, found in modern construction.',
     accessed: "April 2026",
   },
   {

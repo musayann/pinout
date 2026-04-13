@@ -12,7 +12,7 @@ const facts = [
   {
     label: "Plug types",
     value: "C, E, G",
-    detail: "Type G is the new EAC standard",
+    detail: "Type G is the official standard",
   },
 ];
 
@@ -58,7 +58,7 @@ export default function QuickFacts() {
                       <strong className="text-text-primary">
                         European 2-pin (Type C)
                       </strong>{" "}
-                      plugs work directly in most sockets.
+                      plugs work in Type E sockets, common in older buildings.
                     </p>
                   </div>
                   <div className="flex items-start gap-2">
