@@ -168,7 +168,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en- RW"
+      lang="en-RW"
       className={`${sourceSerif.variable} ${outfit.variable} h-full antialiased`}
     >
       <head>
