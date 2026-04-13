@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-display: var(--font-source-serif);
+  --font-body: var(--font-outfit);
+  --color-rw-teal: #0B4F3E;
+  --color-rw-teal-dark: #0A3F32;
+  --color-rw-teal-light: #1A6B52;
+  --color-rw-blue: #0891B2;
+  --color-rw-gold: #D4A017;
+  --color-rw-gold-light: #FBF3DB;
+  --color-warm-bg: #FAF9F6;
+  --color-warm-card: #FFFFFF;
+  --color-amber-bg: #FFFBEB;
+  --color-amber-border: #D4A017;
+  --color-text-primary: #1C1917;
+  --color-text-secondary: #57534E;
+  --color-text-muted: #A8A29E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+  color: var(--color-text-primary);
+  background: var(--color-warm-bg);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.hero-pattern {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(255, 255, 255, 0.07) 1px,
+    transparent 0
+  );
+  background-size: 28px 28px;
+}
