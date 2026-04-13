@@ -67,7 +67,7 @@ export default function QuickFacts() {
                     </span>
                     <p className="text-text-secondary">
                       <strong className="text-text-primary">
-                        French (Type E)
+                        French/Belgian (Type E)
                       </strong>{" "}
                       plugs work in Type E sockets, common in older buildings.
                     </p>

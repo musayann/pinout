@@ -9,7 +9,18 @@ const typeBadgeColors: Record<string, string> = {
 
 export default function PlugCard({ plug }: { plug: PlugType }) {
   return (
-    <article className="group bg-warm-card rounded-2xl border border-stone-200/80 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+    <article className="relative group bg-warm-card rounded-2xl border border-stone-200/80 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+      {/* Status pill — floating over illustration */}
+      {plug.status === "official" ? (
+        <span className="absolute top-3 right-3 z-10 px-2.5 py-1 text-xs font-semibold rounded-full bg-rw-teal/80 backdrop-blur-sm text-white shadow-sm whitespace-nowrap">
+          Official Standard
+        </span>
+      ) : (
+        <span className="absolute top-3 right-3 z-10 px-2.5 py-1 text-xs font-semibold rounded-full bg-stone-500/60 backdrop-blur-sm text-white shadow-sm whitespace-nowrap">
+          Legacy
+        </span>
+      )}
+
       {/* Illustration area */}
       <div className="bg-stone-50 rounded-t-2xl border-b border-stone-100 p-4">
         <PlugIllustration

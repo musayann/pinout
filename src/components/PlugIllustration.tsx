@@ -17,7 +17,7 @@ const plugImages: Record<
   },
   E: {
     src: "/images/plugs/type-e.jpg",
-    alt: "Type E French plug and socket — two round pins with ground pin on socket",
+    alt: "Type E French/Belgian plug and socket — two round pins with ground pin on socket",
     width: 2182,
     height: 1115,
   },

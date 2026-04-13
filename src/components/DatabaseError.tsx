@@ -75,7 +75,7 @@ export default function DatabaseError() {
                   <strong className="text-text-primary">
                     plug types C and J
                   </strong>
-                  . The Type&nbsp;J plug is a three-pin design used exclusively
+                  . The Type&nbsp;J plug is a three-pin design used primarily
                   in{" "}
                   <strong className="text-text-primary">
                     Switzerland and Liechtenstein
@@ -92,7 +92,7 @@ export default function DatabaseError() {
                   listing became widely repeated.
                 </p>
                 <p>
-                  The error has since been corrected in authoritative sources.
+                  The error has since been corrected in IEC and other sources.
                   Rwanda&rsquo;s official standard is Type G, with legacy
                   types{" "}
                   <strong className="text-text-primary">C and E</strong> still
@@ -126,7 +126,7 @@ export default function DatabaseError() {
                 <div className="relative pl-6 border-l-2 border-stone-200 space-y-6">
                   {[
                     {
-                      period: "Pre-2020s",
+                      period: (<>Pre-2020<span className="normal-case">s</span></>),
                       title: "Error enters IEC-derived databases",
                       description:
                         "IEC-sourced data lists Rwanda as using plug types C and J. The origin is likely a data entry mistake. Type J (Swiss) was associated with Rwanda without basis.",
@@ -141,13 +141,13 @@ export default function DatabaseError() {
                       period: "2025",
                       title: "IEC World Plugs corrected",
                       description:
-                        "The IEC World Plugs database corrects Rwanda's listing to C, E, F, G, removing Type J entirely. Other primary references such as worldstandards.eu are also updated.",
+                        "The IEC World Plugs database corrects Rwanda's listing to C, E, F, and G, removing Type J entirely. Other primary references such as worldstandards.eu are also updated.",
                     },
                     {
                       period: "Present",
                       title: "Most sources corrected, some lag behind",
                       description:
-                        "The majority of authoritative sources now list C, E, G (some include F). A few secondary sites still display the old C/J data.",
+                        "The majority of authoritative sources now list C, E, F, and G. A few secondary sites still display the old C/J data.",
                     },
                   ].map((event, i) => (
                     <div key={i} className="relative">

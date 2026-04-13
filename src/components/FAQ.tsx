@@ -2,7 +2,7 @@ const faqs = [
   {
     question: "What plug types are used in Rwanda?",
     answer:
-      "Rwanda uses plug types C, E, and G. Type C (Europlug) is listed due to its compatibility with Type E sockets, and dedicated Type C sockets are very rare. Type E (French) was the former standard, originally from Belgian colonial infrastructure and used for decades after independence. Type G (British) is Rwanda's official standard, adopted as part of East African Community harmonisation, and now required in all new construction.",
+      "Rwanda uses plug types C, E, and G. Type C (Europlug) fits directly into Type E sockets and is used for low-power devices like chargers and laptops. Dedicated Type C sockets are very rare. Type E (French/Belgian) was the former standard and remains the most common grounded socket in older buildings. Type G (British) is Rwanda's official standard, adopted as part of East African Community harmonisation, and now required in all new construction.",
   },
   {
     question: "What voltage and frequency does Rwanda use?",
@@ -12,7 +12,7 @@ const faqs = [
   {
     question: "Why do some websites list Type J for Rwanda?",
     answer:
-      "Some international databases, notably those derived from IEC data, incorrectly listed Rwanda as using plug types C and J. Type J is the Swiss plug, used exclusively in Switzerland and Liechtenstein. This was a data entry error that propagated across reference databases. It has since been corrected in authoritative sources, though a few secondary sites still show the old data.",
+      "Some international databases, notably those derived from IEC data, incorrectly listed Rwanda as using plug types C and J. Type J is the Swiss plug, used primarily in Switzerland and Liechtenstein. This was a data entry error that propagated across reference databases. It has since been corrected in IEC and other sources, though a few secondary sites still show the old data.",
   },
   {
     question: "Do I need a travel adapter for Rwanda?",
@@ -22,7 +22,7 @@ const faqs = [
   {
     question: "I'm from the UK — do I need an adapter for Rwanda?",
     answer:
-      "Type G (British) is Rwanda's official standard, so many newer buildings, hotels, and commercial properties will have Type G sockets. However, older buildings may only have Type E (French) sockets, which are not compatible with Type G plugs. It's always a good idea to carry an adapter just in case your accommodation doesn't have Type G sockets.",
+      "Type G (British) is Rwanda's official standard, so many newer buildings, hotels, and commercial properties will have Type G sockets. However, older buildings may only have Type E (French/Belgian) sockets, which are not compatible with Type G plugs. It's always a good idea to carry an adapter just in case your accommodation doesn't have Type G sockets.",
   },
   {
     question: "What is the East African Community (EAC) plug standard?",

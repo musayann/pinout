@@ -6,10 +6,10 @@ Rwanda uses plug types C, E, and G at 230V / 50Hz.
 
 ## Plug Types
 
-- Type C (Europlug): Two-pin ungrounded plug, 4.0 mm diameter pins. Compatible with Type E sockets. Dedicated Type C sockets are very rare in Rwanda — Type C plugs are used everywhere via compatibility with Type E sockets.
-- Type E (French): Two-pin grounded plug with ground pin on the socket, 4.8 mm diameter pins. Former standard, originally from Belgian colonial infrastructure and used for decades after independence. Most widespread grounded socket in older buildings.
-- Type F (Schuko): Two round pins with grounding clips on socket sides. Listed by the IEC for Rwanda but uncommon in practice — mostly encountered through imported European appliances rather than as a standard installation.
-- Type G (British BS 1363): Three rectangular pins in triangular pattern, fused at 13 A. Rwanda's official standard, adopted as part of East African Community (EAC) harmonisation. Required in all new construction since the early 2010s.
+- Type C (Europlug): Compact, ungrounded two-pin plug, 4.0 mm diameter pins. Used for low-power devices like chargers, laptops, and small appliances. Fits directly into Type E sockets found throughout Rwanda. Dedicated Type C sockets are very rare.
+- Type E (French/Belgian): Grounded plug where the socket provides the grounding pin, 4.8 mm diameter pins. Once Rwanda's standard, still the most widespread grounded socket in older buildings. Some homes built in the late 2010s still use Type E.
+- Type F (Schuko): Two round pins with grounding clips on socket sides. Listed by the IEC for Rwanda but uncommon in practice — mostly encountered through imported European appliances.
+- Type G (British BS 1363): Three rectangular pins in triangular pattern, with built-in fuse at 13 A. Rwanda's official standard, adopted as part of East African Community harmonisation. Required in all new construction since the early 2010s.
 
 ## Key Facts
 
@@ -25,7 +25,7 @@ Some international databases, notably those derived from IEC data, incorrectly l
 ## Travel Advice
 
 - European two-pin (Type C) plugs work directly in Type E sockets, which are common in older buildings
-- French (Type E) plugs work in older buildings
+- French/Belgian (Type E) plugs work in older buildings
 - British (Type G) sockets are found in newer buildings and hotels, but UK travellers should carry an adapter in case their building only has Type E sockets
 - US, Canadian, Chinese, Japanese, Australian, Indian and other non-European plug types will need an adapter
 - A universal travel adapter is recommended for best coverage

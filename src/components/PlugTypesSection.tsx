@@ -13,7 +13,7 @@ export default function PlugTypesSection() {
             Rwanda&rsquo;s sockets are Types&nbsp;E and&nbsp;G. Type&nbsp;C is
             also listed in international references because the Europlug fits
             directly into Type&nbsp;E sockets, making it the most common plug
-            in everyday use, even though no dedicated Type&nbsp;C sockets exist.
+            in everyday use, even though dedicated Type&nbsp;C sockets are rare.
           </p>
         </div>
 
