@@ -24,11 +24,17 @@ export const metadata: Metadata = {
     "Rwanda plugs",
     "Rwanda electrical sockets",
     "Rwanda power adapter",
-    "Type C plug",
-    "Type E plug",
-    "Type G plug",
-    "Rwanda voltage",
+    "Rwanda power outlet",
+    "Rwanda travel adapter",
+    "Type C plug Rwanda",
+    "Type E plug Rwanda",
+    "Type G plug Rwanda",
+    "Rwanda voltage 230V",
     "Rwanda electricity",
+    "do I need adapter for Rwanda",
+    "Rwanda plug type",
+    "East African Community plug standard",
+    "Kigali power socket",
   ],
   alternates: {
     canonical: "/",
@@ -46,6 +52,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Electrical Plugs & Sockets in Rwanda",
     description: "Rwanda uses plug types C, E, and G at 230V/50Hz.",
+  },
+  other: {
+    "geo.region": "RW",
+    "geo.placename": "Rwanda",
   },
 };
 
@@ -112,6 +122,36 @@ const articleSchema = {
   },
 };
 
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Choose a Travel Adapter for Rwanda",
+  description:
+    "Determine which travel adapter you need for Rwanda based on your home country's plug type.",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Check your plug type",
+      text: "Identify your device's plug type. European two-pin (Type C) plugs work directly in most Rwandan sockets without an adapter.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Check the building age",
+      text: "Older Rwandan buildings use Type E (French) sockets. Newer buildings and hotels use Type G (British) sockets, the official EAC standard.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Get the right adapter",
+      text: "Travellers from the UK, US, Australia, and other non-European countries need an adapter. A universal travel adapter is recommended for the best coverage across both older (Type E) and newer (Type G) buildings.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Check your device voltage",
+      text: "Rwanda uses 230V at 50Hz. Most modern electronics (laptops, phones) support 100-240V and work without a converter. Check your device's label to confirm.",
+    },
+  ],
+};
+
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -128,7 +168,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-rw"
       className={`${sourceSerif.variable} ${outfit.variable} h-full antialiased`}
     >
       <head>
@@ -139,6 +179,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
         />
         <script
           type="application/ld+json"
