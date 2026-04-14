@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   description:
-    "Complete guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
+    "A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
   keywords: [
     "Rwanda plugs",
     "Rwanda electrical sockets",
@@ -36,6 +36,14 @@ export const metadata: Metadata = {
     "East African Community plug standard",
     "Kigali power socket",
   ],
+  icons: {
+    icon: [
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
   alternates: {
     canonical: "/",
   },
@@ -130,7 +138,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   description:
-    "Complete reference for electrical plug and socket types used in Rwanda, including the Type J database error correction.",
+    "A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
   url: SITE_URL,
   datePublished: "2026-04-13",
   dateModified: "2026-04-13",
@@ -138,6 +146,17 @@ const articleSchema = {
     "@type": "Organization",
     name: SITE_NAME,
     url: SITE_URL,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/favicon-96x96.png`,
+      width: 96,
+      height: 96,
+    },
   },
 };
 
@@ -171,13 +190,28 @@ const howToSchema = {
   ],
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: SITE_NAME,
+  url: SITE_URL,
+  description:
+    "Reference guide to electrical plug and socket types used in Rwanda.",
+  logo: {
+    "@type": "ImageObject",
+    url: `${SITE_URL}/favicon-96x96.png`,
+    width: 96,
+    height: 96,
+  },
+};
+
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: SITE_NAME,
   url: SITE_URL,
   description:
-    "Complete reference for electrical plug and socket types used in Rwanda. Covers Types C, E, and G at 230V/50Hz, including the Type J database error correction.",
+    "A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
 };
 
 export default function RootLayout({
@@ -202,6 +236,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         <script
           type="application/ld+json"
