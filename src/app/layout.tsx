@@ -113,6 +113,8 @@ export const metadata: Metadata = {
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": `${SITE_URL}/#faq`,
+  url: `${SITE_URL}/#faq`,
   name: "Frequently Asked Questions About Electrical Plugs in Rwanda",
   mainEntity: [
     {
