@@ -114,7 +114,7 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": `${SITE_URL}/#faq`,
-  url: `${SITE_URL}/#faq`,
+  url: SITE_URL,
   name: "Frequently Asked Questions About Electrical Plugs in Rwanda",
   mainEntity: [
     {
@@ -171,9 +171,11 @@ const faqSchema = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": `${SITE_URL}/#article`,
   headline: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   description:
     "A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
+  image: `${SITE_URL}/og-image.png`,
   url: SITE_URL,
   datePublished: "2026-04-13",
   dateModified: "2026-04-13",
@@ -198,6 +200,7 @@ const articleSchema = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
+  "@id": `${SITE_URL}/#howto`,
   name: "How to Choose a Travel Adapter for Rwanda",
   description:
     "Determine which travel adapter you need for Rwanda based on your home country's plug type.",
@@ -228,6 +231,7 @@ const howToSchema = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
   name: SITE_NAME,
   url: SITE_URL,
   description:
@@ -243,6 +247,7 @@ const organizationSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
   name: SITE_NAME,
   url: SITE_URL,
   description:
