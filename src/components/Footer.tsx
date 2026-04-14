@@ -3,9 +3,9 @@ export default function Footer() {
     <footer className="border-t border-stone-200/60 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="max-w-3xl mx-auto">
-          <h3 className="font-[family-name:var(--font-display)] font-semibold text-text-primary mb-2">
+          <p className="font-[family-name:var(--font-display)] font-semibold text-text-primary mb-2">
             About this page
-          </h3>
+          </p>
           <p className="text-sm text-text-secondary leading-relaxed">
             This reference page was created to provide accurate information
             about electrical plug and socket types used in Rwanda, and to
@@ -22,9 +22,9 @@ export default function Footer() {
         </div>
 
         <div className="max-w-3xl mx-auto mt-6 pt-6 border-t border-stone-100">
-          <h4 className="text-xs font-medium text-text-muted uppercase tracking-wide mb-2">
+          <p className="text-xs font-medium text-text-muted uppercase tracking-wide mb-2">
             Photo credits
-          </h4>
+          </p>
           <ul className="text-xs text-text-muted space-y-1 leading-relaxed">
             <li>
               Type C photo by SomnusDe &mdash; public domain

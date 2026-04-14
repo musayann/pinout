@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   description:
-    "A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
+    "Rwanda uses plug types C, E, and G at 230V/50Hz. A complete guide to electrical sockets, the Type J database error, and what changed.",
   keywords: [
     "Rwanda plugs",
     "Rwanda electrical sockets",
@@ -78,6 +78,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/",
+    languages: {
+      "en": "/",
+      "x-default": "/",
+    },
   },
   openGraph: {
     title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
@@ -178,7 +182,7 @@ const articleSchema = {
   image: `${SITE_URL}/og-image.png`,
   url: SITE_URL,
   datePublished: "2026-04-13",
-  dateModified: "2026-04-13",
+  dateModified: "2026-04-14",
   author: {
     "@type": "Organization",
     name: SITE_NAME,
