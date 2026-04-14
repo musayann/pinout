@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     "Rwanda travel adapter",
     "Type C plug Rwanda",
     "Type E plug Rwanda",
+    "Type F plug Rwanda",
     "Type G plug Rwanda",
     "Rwanda voltage 230V",
     "Rwanda electricity",
@@ -35,6 +36,37 @@ export const metadata: Metadata = {
     "Rwanda plug type",
     "East African Community plug standard",
     "Kigali power socket",
+    "power adapter for Kigali",
+    "Kigali plug",
+    "Kigali socket type",
+
+    "Rwanda plugs and sockets",
+    "Rwanda outlet type",
+    "what plug is used in Rwanda",
+    "Rwanda electrical plug type",
+    "Rwanda plug and voltage",
+    "Rwanda mains voltage",
+    "Rwanda voltage and frequency",
+    "Rwanda 230V 50Hz",
+    "travel adapter needed for Rwanda",
+    "Rwanda power plug types",
+    "Rwanda socket types C E G",
+
+    "US to Rwanda plug adapter",
+    "UK plug in Rwanda",
+    "Europe plug in Rwanda",
+    "can I use Type G in Rwanda",
+    "can I use Type E in Rwanda",
+    "can I use Europlug in Rwanda",
+
+    "Kigali outlet type",
+    "Kigali electricity voltage",
+    "Kigali hotel plug type",
+
+    "Rwanda type J plug",
+    "Rwanda C and J plug",
+    "is Type J used in Rwanda",
+    "Rwanda plug type correction"
   ],
   icons: {
     icon: [
