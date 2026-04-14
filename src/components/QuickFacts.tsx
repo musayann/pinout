@@ -27,7 +27,7 @@ export default function QuickFacts() {
 
           <div className="bg-warm-card rounded-2xl border border-stone-200/80 shadow-sm overflow-hidden">
             {/* Facts grid */}
-            <div className="grid grid-cols-3 divide-x divide-stone-100">
+            <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-stone-100">
               {facts.map((fact) => (
                 <div key={fact.label} className="p-5 sm:p-6 text-center">
                   <p className="text-xs font-medium text-text-muted uppercase tracking-wider mb-2">
