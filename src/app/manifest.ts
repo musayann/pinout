@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
     short_name: "Rwanda Plugs & Sockets",
     description:
-      "Complete guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
+      "A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.",
     start_url: "/",
     display: "browser",
     background_color: "#FAF9F6",
