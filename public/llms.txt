@@ -2,7 +2,15 @@
 
 > A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.
 
-Rwanda uses plug types C, E, and G at 230V / 50Hz.
+Rwanda uses plug types C, E, and G at 230V / 50Hz. This site covers Rwanda's electrical standards, plug compatibility for travellers, and documents a widely propagated database error that incorrectly listed Type J (Swiss) as a Rwandan plug type.
+
+## Key Facts
+
+- Voltage: 230 V
+- Frequency: 50 Hz
+- Plug types in use: C, E, G
+- Official standard: Type G (British BS 1363), adopted as part of East African Community (EAC) harmonisation with Kenya, Tanzania, and Uganda
+- Compatible with most of Europe and Africa — no voltage converter needed for devices rated 230V/50Hz
 
 ## Plug Types
 
@@ -11,24 +19,44 @@ Rwanda uses plug types C, E, and G at 230V / 50Hz.
 - Type F (Schuko): Two round pins with grounding clips on socket sides. Listed by the IEC for Rwanda but uncommon in practice — mostly encountered through imported European appliances.
 - Type G (British BS 1363): Three rectangular pins in triangular pattern, with built-in fuse at 13 A. Rwanda's official standard, adopted as part of East African Community harmonisation. Required in all new construction since the early 2010s.
 
-## Key Facts
+## Plug Compatibility
 
-- Voltage: 230 V
-- Frequency: 50 Hz
-- Compatible with most of Europe and Africa
-- Type G is Rwanda's new standard, adopted as part of EAC harmonisation with Kenya, Tanzania, and Uganda
+- European 2-pin (Type C) plugs: Compatible — work in Type E sockets, common in older buildings.
+- French/Belgian (Type E) plugs: Compatible — work in Type E sockets, common in older buildings.
+- British (Type G) plugs: Compatible — sockets found in newer buildings and hotels. May also be found in some older buildings.
+- US, Canadian, Chinese, Japanese, Australian, Indian, and other non-European plug types: Adapter required.
+- A universal travel adapter is recommended for the best coverage across both older and newer buildings.
+
+## How to Choose a Travel Adapter for Rwanda
+
+1. Check your plug type: Identify your device's plug type. European two-pin (Type C) plugs work directly in Type E sockets found in older buildings, without an adapter.
+2. Check the building age: Older Rwandan buildings use Type E (French/Belgian) sockets. Newer buildings and hotels use Type G (British) sockets, Rwanda's official standard adopted as part of EAC harmonisation.
+3. Get the right adapter: US, Australian, and other non-European travellers will need an adapter. UK travellers may find Type G sockets in newer buildings, but should carry an adapter for older buildings with Type E sockets. A universal travel adapter is recommended for the best coverage.
+4. Check your device voltage: Rwanda uses 230V at 50Hz. Most modern electronics (laptops, phones) support 100-240V and work without a converter. Check your device's label to confirm.
 
 ## Type J Database Error
 
 Some international databases, notably those derived from IEC data, incorrectly listed Rwanda as using plug types C and J. Type J is the Swiss plug, used exclusively in Switzerland and Liechtenstein. This was a data entry error that propagated across reference databases. The IEC corrected Rwanda's listing in 2025 to types C, E, F, and G, removing the erroneous Type J.
 
-## Travel Advice
+## Frequently Asked Questions
 
-- European two-pin (Type C) plugs work directly in Type E sockets, which are common in older buildings
-- French/Belgian (Type E) plugs work in older buildings
-- British (Type G) sockets are found in newer buildings and hotels, but UK travellers should carry an adapter in case their building only has Type E sockets
-- US, Canadian, Chinese, Japanese, Australian, Indian and other non-European plug types will need an adapter
-- A universal travel adapter is recommended for best coverage
+Q: What plug types are used in Rwanda?
+A: Rwanda uses plug types C, E, and G. Type C (Europlug) fits directly into Type E sockets and is used for low-power devices like chargers and laptops. Dedicated Type C sockets are very rare. Type E (French/Belgian) was the former standard and remains the most common grounded socket in older buildings. Type G (British) is Rwanda's official standard, adopted as part of East African Community harmonisation, and now required in all new construction.
+
+Q: What voltage and frequency does Rwanda use?
+A: Rwanda uses 230 V at 50 Hz, the same standard as most of Europe and Africa. No voltage converter is needed for devices rated for this standard.
+
+Q: Why do some websites list Type J for Rwanda?
+A: Some international databases, notably those derived from IEC data, incorrectly listed Rwanda as using plug types C and J. Type J is the Swiss plug, used primarily in Switzerland and Liechtenstein. This was a data entry error that propagated across reference databases. It has since been corrected in IEC and other sources, though a few secondary sites still show the old data.
+
+Q: Do I need a travel adapter for Rwanda?
+A: It depends on where you're from. European two-pin (Type C) plugs work directly in Type E sockets, which are common in older buildings. US, Australian, and other non-European travellers will need an adapter. A universal travel adapter is recommended for the best coverage across both older and newer buildings.
+
+Q: I'm from the UK — do I need an adapter for Rwanda?
+A: Type G (British) is Rwanda's official standard, so many newer buildings, hotels, and commercial properties will have Type G sockets. However, older buildings may only have Type E (French/Belgian) sockets, which are not compatible with Type G plugs. It's always a good idea to carry an adapter just in case your accommodation doesn't have Type G sockets.
+
+Q: What is the East African Community (EAC) plug standard?
+A: Rwanda has adopted Type G (British BS 1363) as its official plug standard, as part of East African Community harmonisation. Along with Kenya, Tanzania, and Uganda, Rwanda now requires Type G sockets in all new electrical installations. This means Type G is becoming increasingly common, especially in Kigali and other urban centres.
 
 ## Sources
 
@@ -49,4 +77,10 @@ Some international databases, notably those derived from IEC data, incorrectly l
 - power-plugs-sockets.com — still lists C, J (incorrect)
 - Electrical Safety First (electricalsafetyfirst.org.uk) — still lists C, J (incorrect)
 
+## About This Site
+
+Rwanda Plugs & Sockets (https://plugs.rw) is a reference guide to electrical plug and socket types used in Rwanda. The site covers Rwanda's electrical standards, plug compatibility for travellers, and documents the Type J database error correction.
+
 - Website: https://plugs.rw
+- Region: Rwanda (RW)
+- Language: English
