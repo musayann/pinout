@@ -68,8 +68,12 @@ export const metadata: Metadata = {
     "is Type J used in Rwanda",
     "Rwanda plug type correction"
   ],
+  appleWebApp: {
+    title: SITE_NAME,
+  },
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
       { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
       { url: "/favicon.svg", type: "image/svg+xml" },
     ],
