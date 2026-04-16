@@ -16,8 +16,6 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   icons: {
     icon: [
       { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
@@ -27,6 +25,8 @@ export const metadata: Metadata = {
     shortcut: ["/favicon.ico"],
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
+  metadataBase: new URL(SITE_URL),
+  title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
   appleWebApp: {
     title: SITE_NAME,
   },
