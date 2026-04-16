@@ -18,6 +18,18 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
+  icons: {
+    icon: [
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  appleWebApp: {
+    title: SITE_NAME,
+  },
   description:
     "Rwanda uses plug types C, E, and G at 230V/50Hz. A complete guide to electrical sockets, the Type J database error, and what changed.",
   keywords: [
@@ -68,18 +80,6 @@ export const metadata: Metadata = {
     "is Type J used in Rwanda",
     "Rwanda plug type correction"
   ],
-  appleWebApp: {
-    title: SITE_NAME,
-  },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "48x48" },
-      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
-      { url: "/favicon.svg", type: "image/svg+xml" },
-    ],
-    shortcut: ["/favicon.ico"],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
-  },
   alternates: {
     canonical: "/",
     languages: {
