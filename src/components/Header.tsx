@@ -34,7 +34,7 @@ export default function Header() {
           className="mt-5 text-base text-white/60 max-w-xl leading-relaxed animate-fade-in-up"
           style={{ animationDelay: "0.6s" }}
         >
-          Rwanda&rsquo;s electrical system uses the same 230&nbsp;V / 50&nbsp;Hz standard found
+          The Rwandan electrical system uses the same 230&nbsp;V / 50&nbsp;Hz standard found
           across most of Africa and Europe. French/Belgian Type&nbsp;E was the former standard, originally from Belgian
           colonial infrastructure, but Rwanda has now adopted Type&nbsp;G as part of East African Community
           harmonisation, required in all new construction.

@@ -70,6 +70,7 @@ export const metadata: Metadata = {
     "Europe plug in Rwanda",
     "can I use Type G in Rwanda",
     "can I use Type E in Rwanda",
+    "can I use type F in Rwanda",
     "can I use Europlug in Rwanda",
 
     "Kigali outlet type",
@@ -79,7 +80,38 @@ export const metadata: Metadata = {
     "Rwanda type J plug",
     "Rwanda C and J plug",
     "is Type J used in Rwanda",
-    "Rwanda plug type correction"
+    "Rwanda plug type correction",
+    "Rwanda plug",
+    "Rwanda socket",
+    "rwandan plug type",
+    "rwandan socket type",
+    "rwandan electrical socket",
+    "Rwanda electrical socket",
+    "Rwanda electrical socket type",
+    "Rwanda electrical plug",
+    "Rwanda electrical plug type",
+    "Rwanda socket type",
+    "Rwanda plug type",
+
+    "what plug do I need for Rwanda",
+    "what type of plug does Rwanda use",
+    "what socket does Rwanda use",
+    "adapter for Rwanda",
+    "plug adapter Rwanda",
+    "Rwanda power plug",
+    "electricity in Rwanda",
+
+    "Rwanda voltage",
+    "Rwanda frequency",
+    "do I need voltage converter for Rwanda",
+
+    "Australia to Rwanda adapter",
+    "Canadian plug in Rwanda",
+    "India plug in Rwanda",
+    "China plug in Rwanda",
+
+    "Kigali plug type",
+    "Kigali power outlet",
   ],
   alternates: {
     canonical: "/",
