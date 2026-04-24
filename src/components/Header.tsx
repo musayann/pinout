@@ -19,7 +19,7 @@ export default function Header() {
           className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl lg:text-6xl font-semibold text-white leading-tight tracking-tight animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Electrical Plugs &<br />
+          Guide to Electrical Plugs &<br />
           Sockets in Rwanda
         </h1>
 

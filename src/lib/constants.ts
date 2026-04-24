@@ -1,2 +1,2 @@
 export const SITE_URL = "https://plugs.rw";
-export const SITE_NAME = "Rwanda Plugs & Sockets";
+export const SITE_NAME = "Rwanda Plugs & Sockets Guide";

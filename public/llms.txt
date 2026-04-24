@@ -1,4 +1,4 @@
-# Electrical Plugs & Sockets in Rwanda: Types C, E, and G
+# What Plugs & Sockets Does Rwanda Actually Use? — Types C, E & G
 
 > A guide to electrical plug and socket types used in Rwanda. Rwanda uses Types C, E, and G at 230V/50Hz. Includes the Type J database error correction.
 
@@ -79,7 +79,7 @@ A: Rwanda has adopted Type G (British BS 1363) as its official plug standard, as
 
 ## About This Site
 
-Rwanda Plugs & Sockets (https://plugs.rw) is a reference guide to electrical plug and socket types used in Rwanda. The site covers Rwanda's electrical standards, plug compatibility for travellers, and documents the Type J database error correction.
+Rwanda Plugs & Sockets Guide (https://plugs.rw) is a reference guide to electrical plug and socket types used in Rwanda. The site covers Rwanda's electrical standards, plug compatibility for travellers, and documents the Type J database error correction.
 
 - Website: https://plugs.rw
 - Region: Rwanda (RW)

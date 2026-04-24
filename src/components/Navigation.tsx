@@ -20,7 +20,7 @@ export default function Navigation() {
           href="#"
           className="font-[family-name:var(--font-display)] font-semibold text-rw-teal text-lg tracking-tight"
         >
-          Rwanda Plugs & Sockets
+          Rwanda Plugs & Sockets Guide
         </a>
 
         <div className="hidden md:flex md:gap-6">

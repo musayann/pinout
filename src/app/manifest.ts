@@ -4,8 +4,8 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Electrical Plugs & Sockets in Rwanda: Types C, E, and G",
-    short_name: "Rwanda Plugs & Sockets",
+    name: "What Plugs & Sockets Does Rwanda Actually Use? — Types C, E & G",
+    short_name: "Rwanda Plugs & Sockets Guide",
     description:
       "Rwanda uses plug types C, E, and G at 230V/50Hz. A complete guide to electrical sockets, the Type J database error, and what changed.",
     start_url: "/",
