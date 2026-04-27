@@ -14,8 +14,9 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-stone-200/60">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
+    <nav className="sticky top-0 z-50 border-b border-stone-200/60">
+      <div className="pointer-events-none absolute inset-0 bg-white/80 backdrop-blur-md" />
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
         <a
           href="#"
           className="font-[family-name:var(--font-display)] font-semibold text-rw-teal text-lg tracking-tight"
@@ -56,8 +57,8 @@ export default function Navigation() {
 
       <div
         id="mobile-menu"
-        className={`md:hidden overflow-hidden transition-all duration-200 ease-in-out ${
-          isOpen ? "max-h-80 opacity-100 border-t border-stone-200/60" : "max-h-0 opacity-0"
+        className={`absolute left-0 right-0 top-14 md:hidden bg-white/80 overflow-hidden backdrop-blur-md shadow-sm transition-all duration-200 ease-in-out ${
+          isOpen ? "max-h-80 border-t border-stone-200/60" : "max-h-0 opacity-0"
         }`}
       >
         <div className="max-w-5xl mx-auto px-4 py-4 space-y-1">
