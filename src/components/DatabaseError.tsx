@@ -95,8 +95,9 @@ export default function DatabaseError() {
                   IEC and other sources have since corrected the specific
                   mistake: the corrected IEC listing is plug types C, E, F, and
                   G, not C and J. The important correction is the removal of
-                  Type&nbsp;J; Type&nbsp;F is a compatibility overlap explained
-                  in the plug types and sources sections below.
+                  Type&nbsp;J. Type&nbsp;F appears in some databases because
+                  Type&nbsp;E and Type&nbsp;F are often grouped together in
+                  European plug-compatibility data.
                 </p>
               </div>
 
@@ -141,7 +142,7 @@ export default function DatabaseError() {
                       period: "2025",
                       title: "IEC World Plugs corrected",
                       description:
-                        "The IEC World Plugs database removes Type J from Rwanda's listing and updates it to C, E, F, and G. Type F appears because of its overlap with Type E-compatible European plug systems, but it was not Rwanda's official standard and is uncommon in practice.",
+                        "The IEC World Plugs database removes Type J from Rwanda's listing and updates it to C, E, F, and G. Some databases list Type F because Type E and Type F are often grouped together in European plug-compatibility data; that does not mean Rwanda commonly has Type F Schuko wall sockets.",
                     },
                     {
                       period: "Present",

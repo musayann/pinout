@@ -179,18 +179,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What voltage and frequency does Rwanda use?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Rwanda uses 230 V at 50 Hz, the same standard as most of Europe and Africa.",
-      },
-    },
-    {
-      "@type": "Question",
       name: "Does Rwanda use Type J plugs?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "No. Rwanda does not use Type J plugs. The correct plug types for Rwanda are C, E, and G. If a website lists Type J for Rwanda, treat it as outdated or incorrect information. Type J is the Swiss plug standard and is not used in Rwanda.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What voltage and frequency does Rwanda use?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Rwanda uses 230 V at 50 Hz, the same standard as most of Europe and Africa.",
       },
     },
     {

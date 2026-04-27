@@ -26,9 +26,13 @@ export default function PlugTypesSection() {
         <div className="mt-8 p-4 rounded-lg bg-stone-50 border border-stone-200/60 max-w-2xl mx-auto">
           <p className="text-sm text-text-secondary">
             <strong className="text-text-primary">Note on Type&nbsp;F (Schuko):</strong>{" "}
-            Type&nbsp;F appears in some reference lists because of its overlap
-            with Type&nbsp;E-compatible European plug systems, but it was not
-            Rwanda&rsquo;s official standard and is uncommon in practice.
+            Some databases list Type&nbsp;F because Type&nbsp;E and Type&nbsp;F
+            are often grouped together in European plug-compatibility data. That
+            does not mean Rwanda commonly has Type&nbsp;F Schuko wall sockets.
+            In Rwanda, the plug and socket types used in practice are{" "}
+            <strong className="text-text-primary">
+              Type&nbsp;C, Type&nbsp;E and Type&nbsp;G
+            </strong>.
           </p>
         </div>
       </div>

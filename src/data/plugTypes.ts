@@ -57,7 +57,7 @@ export const typeFInfo = {
   name: "Schuko Plug",
   pins: "2 round pins, 4.8 mm diameter + grounding clips on socket sides",
   description:
-    "A two-pin plug similar to Type E but grounded via metal clips on the sides of the socket. It appears in some references because of its overlap with Type E-compatible European plug systems, but it was not Rwanda's official standard and is uncommon in practice.",
+    "A two-pin plug similar to Type E but grounded via metal clips on the sides of the socket. Some databases list Type F because Type E and Type F are often grouped together in European plug-compatibility data. That does not mean Rwanda commonly has Type F Schuko wall sockets.",
 };
 
 export const typeJInfo = {

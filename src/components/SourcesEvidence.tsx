@@ -20,7 +20,7 @@ const sources = [
     org: "International Electrotechnical Commission",
     url: "https://www.iec.ch/world-plugs",
     lists: "C, E, F, G",
-    note: "The official IEC database corrected Rwanda's listing in 2025 to types C, E, F, and G, removing Type J from Rwanda's listing. Type F (Schuko) is included but is uncommon in practice.",
+    note: "The official IEC database corrected Rwanda's listing in 2025 to types C, E, F, and G, removing Type J from Rwanda's listing. Some databases list Type F because Type E and Type F are often grouped together in European plug-compatibility data; that does not mean Rwanda commonly has Type F Schuko wall sockets.",
     accessed: "April 2026",
   },
   {
@@ -52,7 +52,7 @@ const sources = [
     org: "Wise",
     url: "https://wise.com/gb/plug-types/rwanda",
     lists: "C, E, F, G",
-    note: "Lists C, E, F, and G for Rwanda at 230V / 50Hz, including Type F, which is uncommon in practice.",
+    note: "Lists C, E, F, and G for Rwanda at 230V / 50Hz, including Type F because European plug-compatibility data often groups Type E and Type F together. That does not mean Rwanda commonly has Type F Schuko wall sockets.",
     accessed: "April 2026",
   },
   {
@@ -60,7 +60,7 @@ const sources = [
     org: "Power Plugs & Sockets World",
     url: "https://powerplugsockets.world/country/rwanda/",
     lists: "C, E, F, G",
-    note: "Lists Type C as the primary plug alongside E, F, and G. Includes a compatibility checker for travelers and confirms Rwanda's 230V / 50Hz standard. Type F is uncommon in practice.",
+    note: "Lists Type C as the primary plug alongside E, F, and G. Includes a compatibility checker for travelers and confirms Rwanda's 230V / 50Hz standard. Type F is best read as compatibility-data grouping, not as evidence that Schuko wall sockets are common in Rwanda.",
     accessed: "April 2026",
   },
   {
@@ -68,7 +68,7 @@ const sources = [
     org: "World Power Plugs",
     url: "https://world-power-plugs.com/rwanda",
     lists: "C, E, F, G",
-    note: "Lists C, E, F, and G at 230V / 50Hz. Notes Type C compatibility with E and F sockets, and that Type G outlets only accept Type G plugs. Type F is uncommon in practice.",
+    note: "Lists C, E, F, and G at 230V / 50Hz. Notes Type C compatibility with E and F sockets, and that Type G outlets only accept Type G plugs. Type F should be read as compatibility-data overlap, not as evidence that Schuko wall sockets are common in Rwanda.",
     accessed: "April 2026",
   },
 ];
@@ -98,9 +98,11 @@ export default function SourcesEvidence() {
           </h2>
           <p className="text-text-secondary text-center mb-10">
             Primary and secondary references confirming Rwanda&rsquo;s plug
-            types. Some references include Type&nbsp;F; this page treats it as
-            uncommon in practice and keeps the practical guidance focused on
-            Types&nbsp;C, E, and G. Each source was independently checked.
+            types. Some references include Type&nbsp;F because Type&nbsp;E and
+            Type&nbsp;F are often grouped together in European
+            plug-compatibility data; this page keeps the practical guidance
+            focused on Types&nbsp;C, E and G. Each source was independently
+            checked.
           </p>
 
           {/* Corrected sources */}
