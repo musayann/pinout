@@ -26,9 +26,9 @@ export default function PlugTypesSection() {
         <div className="mt-8 p-4 rounded-lg bg-stone-50 border border-stone-200/60 max-w-2xl mx-auto">
           <p className="text-sm text-text-secondary">
             <strong className="text-text-primary">Note on Type&nbsp;F (Schuko):</strong>{" "}
-            Type&nbsp;F is listed by the IEC for Rwanda but is uncommon in
-            practice, mostly encountered through imported European appliances
-            rather than as a widespread wiring standard.
+            Type&nbsp;F appears in some reference lists because of its overlap
+            with Type&nbsp;E-compatible European plug systems, but it was not
+            Rwanda&rsquo;s official standard and is uncommon in practice.
           </p>
         </div>
       </div>

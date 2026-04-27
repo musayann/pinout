@@ -10,9 +10,9 @@ const faqs = [
       "Rwanda uses 230 V at 50 Hz, the same standard as most of Europe and Africa. No voltage converter is needed for devices rated for this standard.",
   },
   {
-    question: "Why do some websites list Type J for Rwanda?",
+    question: "Does Rwanda use Type J plugs?",
     answer:
-      "Some international databases, notably those derived from IEC data, incorrectly listed Rwanda as using plug types C and J. Type J is the Swiss plug, used primarily in Switzerland and Liechtenstein. This was a data entry error that propagated across reference databases. It has since been corrected in IEC and other sources, though a few secondary sites still show the old data.",
+      "No. Rwanda does not use Type J plugs. The correct plug types for Rwanda are C, E, and G. If a website lists Type J for Rwanda, treat it as outdated or incorrect information. Type J is the Swiss plug standard and is not used in Rwanda.",
   },
   {
     question: "Do I need a travel adapter for Rwanda?",

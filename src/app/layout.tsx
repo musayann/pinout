@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     "Kigali hotel plug type",
 
     "Rwanda type J plug",
-    "Rwanda C and J plug",
+    "Rwanda C and J plug error",
     "is Type J used in Rwanda",
     "Rwanda plug type correction",
     "Rwanda plug",
@@ -187,10 +187,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Why do some websites list Type J for Rwanda?",
+      name: "Does Rwanda use Type J plugs?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Some international databases, notably those derived from IEC data, incorrectly listed Rwanda as using plug types C and J. Type J is the Swiss plug, used primarily in Switzerland and Liechtenstein. This was a data entry error that propagated across reference databases. It has since been corrected in IEC and other sources.",
+        text: "No. Rwanda does not use Type J plugs. The correct plug types for Rwanda are C, E, and G. If a website lists Type J for Rwanda, treat it as outdated or incorrect information. Type J is the Swiss plug standard and is not used in Rwanda.",
       },
     },
     {
@@ -220,6 +220,14 @@ const faqSchema = {
   ],
 };
 
+const rwandaElectricalFacts = {
+  electricalVoltage: 230,
+  electricalFrequency: 50,
+  plugType: ["C", "E", "G"],
+  correction:
+    "Type J is not used in Rwanda; listings that include Type J for Rwanda are incorrect",
+};
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -227,6 +235,7 @@ const articleSchema = {
   headline: "What Plugs & Sockets Does Rwanda Actually Use? — Types C, E & G",
   description:
     "Rwanda uses plug types C, E, and G at 230V/50Hz. A complete guide to electrical sockets, the Type J database error, and what changed.",
+  ...rwandaElectricalFacts,
   image: `${SITE_URL}/og-image.png`,
   url: SITE_URL,
   datePublished: "2026-04-13",
@@ -304,6 +313,7 @@ const websiteSchema = {
   url: SITE_URL,
   description:
     "Rwanda uses plug types C, E, and G at 230V/50Hz. A complete guide to electrical sockets, the Type J database error, and what changed.",
+  ...rwandaElectricalFacts,
 };
 
 export default function RootLayout({

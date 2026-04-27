@@ -92,11 +92,11 @@ export default function DatabaseError() {
                   listing became widely repeated.
                 </p>
                 <p>
-                  The error has since been corrected in IEC and other sources.
-                  Rwanda&rsquo;s official standard is Type G, with legacy
-                  types{" "}
-                  <strong className="text-text-primary">C and E</strong> still
-                  widely used.
+                  IEC and other sources have since corrected the specific
+                  mistake: the corrected IEC listing is plug types C, E, F, and
+                  G, not C and J. The important correction is the removal of
+                  Type&nbsp;J; Type&nbsp;F is a compatibility overlap explained
+                  in the plug types and sources sections below.
                 </p>
               </div>
 
@@ -109,10 +109,10 @@ export default function DatabaseError() {
                       Type J: Swiss Plug
                     </h3>
                     <p className="text-sm text-text-secondary mt-1">
-                      Three round pins in an offset triangular pattern. Used only
-                      in Switzerland and Liechtenstein. This plug type has no
-                      historical or practical connection to Rwanda&rsquo;s
-                      electrical system.
+                      Three round pins in an offset triangular pattern. Used
+                      mainly in Switzerland and Liechtenstein. This plug type is
+                      not used in Rwanda and has no historical or practical
+                      connection to Rwanda&rsquo;s electrical system.
                     </p>
                   </div>
                 </div>
@@ -141,13 +141,13 @@ export default function DatabaseError() {
                       period: "2025",
                       title: "IEC World Plugs corrected",
                       description:
-                        "The IEC World Plugs database corrects Rwanda's listing to C, E, F, and G, removing Type J entirely. Other primary references such as worldstandards.eu are also updated.",
+                        "The IEC World Plugs database removes Type J from Rwanda's listing and updates it to C, E, F, and G. Type F appears because of its overlap with Type E-compatible European plug systems, but it was not Rwanda's official standard and is uncommon in practice.",
                     },
                     {
                       period: "Present",
                       title: "Most sources corrected, some lag behind",
                       description:
-                        "The majority of authoritative sources now list C, E, F, and G. A few secondary sites still display the old C/J data.",
+                        "The majority of authoritative sources no longer list Type J for Rwanda. A few secondary sites still display the old, incorrect C/J data.",
                     },
                   ].map((event, i) => (
                     <div key={i} className="relative">

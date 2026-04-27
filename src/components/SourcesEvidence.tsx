@@ -20,7 +20,7 @@ const sources = [
     org: "International Electrotechnical Commission",
     url: "https://www.iec.ch/world-plugs",
     lists: "C, E, F, G",
-    note: "The official IEC database corrected Rwanda's listing in 2025 to types C, E, F, and G, removing the erroneous Type J. Type F (Schuko) is included but is uncommon in practice.",
+    note: "The official IEC database corrected Rwanda's listing in 2025 to types C, E, F, and G, removing Type J from Rwanda's listing. Type F (Schuko) is included but is uncommon in practice.",
     accessed: "April 2026",
   },
   {
@@ -52,7 +52,7 @@ const sources = [
     org: "Wise",
     url: "https://wise.com/gb/plug-types/rwanda",
     lists: "C, E, F, G",
-    note: "Correctly identifies all four associated plug types for Rwanda at 230V / 50Hz, with details on each plug's pin configuration.",
+    note: "Lists C, E, F, and G for Rwanda at 230V / 50Hz, including Type F, which is uncommon in practice.",
     accessed: "April 2026",
   },
   {
@@ -60,7 +60,7 @@ const sources = [
     org: "Power Plugs & Sockets World",
     url: "https://powerplugsockets.world/country/rwanda/",
     lists: "C, E, F, G",
-    note: "Lists Type C as the primary plug alongside E, F, and G. Includes a compatibility checker for travelers and confirms 230V / 50Hz standard.",
+    note: "Lists Type C as the primary plug alongside E, F, and G. Includes a compatibility checker for travelers and confirms Rwanda's 230V / 50Hz standard. Type F is uncommon in practice.",
     accessed: "April 2026",
   },
   {
@@ -68,7 +68,7 @@ const sources = [
     org: "World Power Plugs",
     url: "https://world-power-plugs.com/rwanda",
     lists: "C, E, F, G",
-    note: "Lists all four outlet types at 230V / 50Hz. Notes Type C compatibility with E and F sockets, and that Type G outlets only accept Type G plugs.",
+    note: "Lists C, E, F, and G at 230V / 50Hz. Notes Type C compatibility with E and F sockets, and that Type G outlets only accept Type G plugs. Type F is uncommon in practice.",
     accessed: "April 2026",
   },
 ];
@@ -98,14 +98,16 @@ export default function SourcesEvidence() {
           </h2>
           <p className="text-text-secondary text-center mb-10">
             Primary and secondary references confirming Rwanda&rsquo;s plug
-            types. Each source was independently checked.
+            types. Some references include Type&nbsp;F; this page treats it as
+            uncommon in practice and keeps the practical guidance focused on
+            Types&nbsp;C, E, and G. Each source was independently checked.
           </p>
 
           {/* Corrected sources */}
           <div className="bg-warm-card rounded-2xl border border-stone-200/80 shadow-sm overflow-hidden">
             <div className="p-5 sm:p-6 border-b border-stone-100 bg-emerald-50/50">
               <h3 className="font-[family-name:var(--font-display)] font-semibold text-text-primary">
-                Sources listing corrected data
+                Checked references
               </h3>
             </div>
             <div className="divide-y divide-stone-100">
@@ -141,10 +143,18 @@ export default function SourcesEvidence() {
           </div>
 
           {/* Uncorrected sources */}
-          <div className="mt-6 bg-warm-card rounded-2xl border border-stone-200/80 shadow-sm overflow-hidden">
+          <h2 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl font-semibold text-text-primary tracking-tight text-center mt-14 mb-4">
+            Outdated Listings
+          </h2>
+          <p className="text-text-secondary text-center mb-10">
+            The following sources still show the old incorrect Rwanda plug data.
+            They are listed here as examples of the error, not as reliable
+            sources for Rwanda plug types.
+          </p>
+          <div className="bg-warm-card rounded-2xl border border-stone-200/80 shadow-sm overflow-hidden">
             <div className="p-5 sm:p-6 border-b border-stone-100 bg-red-50/50">
               <h3 className="font-[family-name:var(--font-display)] font-semibold text-text-primary">
-                Sources still showing incorrect data
+                Examples of old C/J listings
               </h3>
             </div>
             <div className="divide-y divide-stone-100">
