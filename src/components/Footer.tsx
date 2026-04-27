@@ -23,49 +23,14 @@ export default function Footer() {
 
         <div className="max-w-3xl mx-auto mt-6 pt-6 border-t border-stone-100">
           <p className="text-xs font-medium text-text-muted uppercase tracking-wide mb-2">
-            Photo credits
+            Image credits
           </p>
           <ul className="text-xs text-text-muted space-y-1 leading-relaxed">
             <li>
-              Type C photo by SomnusDe &mdash; public domain
-            </li>
-            <li>
-              Type E photo by Looxix, Etienne Rastoul, Hic et nunc &mdash;{" "}
-              <a
-                href="https://creativecommons.org/licenses/by-sa/3.0/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-rw-teal transition-colors"
-              >
-                CC BY-SA 3.0
-              </a>
-            </li>
-            <li>
-              Type G photo by Ukpluggerrr &mdash;{" "}
-              <a
-                href="https://creativecommons.org/licenses/by-sa/4.0/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-rw-teal transition-colors"
-              >
-                CC BY-SA 4.0
-              </a>
-            </li>
-            <li>
-              Type J photo by Filzstift &amp; ZH8000 &mdash;{" "}
-              <a
-                href="https://creativecommons.org/licenses/by-sa/4.0/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-rw-teal transition-colors"
-              >
-                CC BY-SA 4.0
-              </a>
+              Type C, Type E, Type G, and Type J plug illustrations are custom
+              AI-generated imagery created for this guide.
             </li>
           </ul>
-          <p className="text-xs text-text-muted mt-1">
-            All images from Wikimedia Commons under free licenses.
-          </p>
         </div>
 
         <div className="max-w-3xl mx-auto mt-6 pt-6 border-t border-stone-100 flex flex-col sm:flex-row justify-between items-center gap-4">

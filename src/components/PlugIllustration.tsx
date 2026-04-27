@@ -10,28 +10,28 @@ const plugImages: Record<
   { src: string; alt: string; width: number; height: number }
 > = {
   C: {
-    src: "/images/plugs/type-c.jpg",
-    alt: "Type C Europlug — two round pins, ungrounded",
-    width: 1024,
-    height: 576,
+    src: "/images/plugs/type-c-ai.webp",
+    alt: "Type C Europlug with matching two-pin Type C socket",
+    width: 1672,
+    height: 941,
   },
   E: {
-    src: "/images/plugs/type-e.jpg",
-    alt: "Type E French/Belgian plug and socket — two round pins with ground pin on socket",
-    width: 2182,
-    height: 1115,
+    src: "/images/plugs/type-e-ai.webp",
+    alt: "Type E French/Belgian plug with matching socket and socket-side grounding pin",
+    width: 1672,
+    height: 941,
   },
   G: {
-    src: "/images/plugs/type-g.png",
-    alt: "Type G British plug and socket — three rectangular pins with fuse",
-    width: 817,
-    height: 600,
+    src: "/images/plugs/type-g-ai.webp",
+    alt: "Type G British fused plug with matching three-slot socket",
+    width: 1672,
+    height: 941,
   },
   J: {
-    src: "/images/plugs/type-j.jpg",
-    alt: "Type J Swiss plug and socket — three round pins in offset triangular pattern",
-    width: 1893,
-    height: 893,
+    src: "/images/plugs/type-j-ai.webp",
+    alt: "Type J Swiss plug with matching three-hole socket",
+    width: 1672,
+    height: 941,
   },
 };
 
